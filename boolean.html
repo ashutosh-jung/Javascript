@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Booleans</title>
+     
+  </head>
+  <body>
+   
+    <script>
+     //booleans are used to represent true or false values
+     true
+     false
+
+     
+     console.log(3 >  5 - 5);
+     console.log(2 < 5);
+
+     //syntax for booleans values
+      console.log(typeof true);
+
+      console.log(5 == '5.00');
+      //==converts the string to a number and then compares the two values
+
+      console.log(5 === '5.00');
+      //=== checks for both value and type, so it will return false because one is a number and the other is a string
+
+        console.log(5 !=10);
+        console.log(4 !==5);
+        console.log(2 !== '2');
+
+        //if statements are used to make decisions in code based on boolean values
+
+        if (false) {
+          console.log('this is true');
+        } else {
+          console.log('else');
+        }
+
+        let agee = 22;
+        if (agee <  18) {
+          console.log('you are eligible for driving');
+        } else if   (agee >  18) {
+          console.log('you are not eligible for driving');
+        } else (agee  === 18) 
+          console.log('you are exactly 18');
+        
+        
+        const age = 15;
+        if (age >= 16) {
+          console.log('you can drive'); 
+
+        }  else if (age >= 14) {
+          console.log('you are almost there');
+        } else {
+          console.log('you can to drive');
+
+
+      }
+
+
+
+      // syntax rules
+      // if if is typen (boolean value) then the code block will be executed //() condition
+      // else is optional and can be used to execute a code block if the condition is false
+
+
+    //logical operators are used to combine multiple boolean values and return a single boolean value
+
+    console.log(true && true);
+    console.log(true && false);
+    console.log(false && false);
+  console.log(0.2 >= 0 && 0.2 < 1 / 3);
+
+
+//order of operations have lower precedence than math and comparison operators, so the comparison operators will be evaluated first before the logical operators math first and comparison let and right then the & operators check
+      
+
+// or operator || returns true if either of the operands is true and false if both are false
+
+console.log(true || true);
+console.log(true || false);
+
+//Not operator ! is used to negate a boolean value and return the opposite value
+
+console.log(!true);
+console.log(!false);
+   
+    </script>
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
